@@ -6,13 +6,13 @@ JavaScript (JS) is a programming language used to make websites interactive and 
 2️⃣ . What is logical operator in js?<br>
 Logical operators in JavaScript are used to combine or check conditions and return true or false.
 
-i. AND (&&)<br>
+(i) AND (&&)<br>
 👉 Returns true only if both conditions are true
 
-ii. OR (||)<br>
+(ii) OR (||)<br>
 👉 Returns true if at least one condition is true
 
-iii. NOT (!)<br>
+(iii) NOT (!)<br>
 👉 Reverses the result (true → false, false → true)
 
 🧠 Easy way to remember:<br>
