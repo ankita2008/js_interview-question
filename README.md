@@ -1,9 +1,9 @@
 # js_interview-question
 
-Q1. What is javascript?<br>
+1️⃣. What is javascript?<br>
 JavaScript (JS) is a programming language used to make websites interactive and dynamic.
 
-Q2. What is logical operator in js?<br>
+2️⃣ . What is logical operator in js?<br>
 Logical operators in JavaScript are used to combine or check conditions and return true or false.
 
 i. AND (&&)<br>
@@ -20,20 +20,20 @@ iii. NOT (!)<br>
 || → Any one condition is enough<br>
 ! → Reverse the result<br>
 
-Q3. What is ternary operator?<br>
+3️⃣ . What is ternary operator?<br>
 The ternary operator in JavaScript is a short way to write an if-else condition in one line.<br>
 
 🧠 Syntax:<br>
 condition ? value_if_true : value_if_false;
 
-Q4. What is hoisting?<br>
+4️⃣ . What is hoisting?<br>
 Hoisting in JavaScript means that variable and function declarations are moved to the top of their scope before the code runs.
 
 🧠 Simple words:<br>
 👉 JavaScript “lifts” (hoists) declarations to the top<br>
 👉 So you can use them before declaring them<br>
 
-Q5. Define for while and do-while loop.<br>
+5️⃣ . Define for while and do-while loop.<br>
 
 🔁 for loop<br>
 👉 A for loop is used when the number of iterations (repetitions) is known in advance.<br>
@@ -44,7 +44,7 @@ A loop that runs a block of code a specific number of times using initialization
 Example:<br>
 for (let i = 1; i <= 5; i++) {<br>
   console.log(i);<br>
-}<br><br>
+}<br>
 
 🔁 while loop<br>
 👉 A while loop is used when the number of iterations is not known and depends on a condition.
@@ -70,14 +70,14 @@ let i = 1;<br>
 do {<br>
   console.log(i);<br>
   i++;<br>
-} while (i <= 5);<br><br>
+} while (i <= 5);<br>
 
 🧠 Short summary:<br>
 -> for loop → when count is known<br>
 -> while loop → runs while condition is true<br>
 -> do-while loop → runs at least once<br>
 
-Q6. What is clouser?Give an example.<br>
+6️⃣ . What is clouser?Give an example.<br>
 👉 A closure is when a function remembers and can use variables from its outer (parent) function, even after the outer function has finished running.
 
 🧠 Simple definition:<br>
@@ -96,7 +96,7 @@ function outer() {<br>
 const result = outer();<br>
 result(); // 1<br>
 result(); // 2<br>
-result(); // 3<br><br>
+result(); // 3<br>
 
 🧠 Easy way to remember:<br>
 👉 Closure = inner function remembers outer function’s variables
@@ -104,7 +104,7 @@ result(); // 3<br><br>
 ⚠️ Note:<br>
 Closures are very important in JavaScript and often asked in interviews.
 
-Q7. What is difference between let, var and cost?<br>
+7️⃣ . What is difference between let, var and cost?<br>
 
 🔑 var<br>
 Definition:<br>
@@ -113,7 +113,7 @@ Definition:<br>
 Example:<br>
 var a = 10;<br>
 var a = 20; // ✅ allowed<br>
-a = 30;     // ✅ allowed<br><br>
+a = 30;     // ✅ allowed<br>
 
 🔑 let<br>
 Definition:<br>
@@ -122,7 +122,7 @@ Definition:<br>
 Example:<br>
 let b = 10;<br>
 // let b = 20; ❌ error<br>
-b = 30;       // ✅ allowed<br><br>
+b = 30;       // ✅ allowed<br>
 
 🔑 const<br>
 Definition:<br>
@@ -130,14 +130,14 @@ Definition:<br>
 
 Example:<br>
 const c = 10;<br>
-// c = 20; ❌ error<br><br>
+// c = 20; ❌ error<br>
 
 🧠 Easy trick to remember:<br>
 var → old & flexible<br>
 let → changeable<br>
 const → fixed<br>
 
-Q8. Difference between function and arrow function?<br>
+8️⃣ . Difference between function and arrow function?
 
 🔑 1. Normal Function<br>
 Definition:<br>
@@ -147,7 +147,7 @@ Example:<br>
 function greet() {<br>
   console.log("Hello");<br>
 }<br>
-greet();<br><br>
+greet();<br>
 
 🔑 2. Arrow Function<br>
 Definition:<br>
@@ -159,7 +159,6 @@ const greet = () => {<br>
 };<br>
 greet();<br><br>
 
-
 🧠 Easy way to remember:<br>
 Normal function → full features<br>
 Arrow function → short & simple<br>
@@ -167,7 +166,7 @@ Arrow function → short & simple<br>
 📌 One-line:<br>
 👉 Arrow functions are shorter but behave differently (especially with this).
 
-Q9. What is the difference between null and undefined?<br>
+9️⃣ . What is the difference between null and undefined?<br>
 
 🔑 undefined<br>
 Definition:<br>
@@ -194,7 +193,7 @@ null → given but empty<br>
 📌 One-line:<br>
 👉 undefined = no value assigned, null = intentionally empty value.<br>
 
-Q10. What is the spread operator? Difference between callback and callback hell?<br>
+🔟  . What is the spread operator? Difference between callback and callback hell?<br>
 🔹 1. Spread Operator (...)<br>
 Definition:<br>
 👉 The spread operator (...) is used to expand elements of an array or object into individual elements.
@@ -210,7 +209,7 @@ Spread operator expands values.<br>
 🔹 2. Callback vs Callback Hell<br>
 🔑 Callback<br>
 Definition:<br>
-👉 A callback is a function that is passed as an argument to another function and executed later.<br><br>
+👉 A callback is a function that is passed as an argument to another function and executed later.<br>
 
 🔑 Callback Hell<br>
 Definition:<br>
@@ -220,7 +219,7 @@ Definition:<br>
 Callback → normal use<br>
 Callback Hell → too many nested functions<br>
 
-Q11. What is the use of charAt(), subString(), and includes() in a string?<br><br>
+1️⃣1️⃣. What is the use of charAt(), subString(), and includes() in a string?<br>
 
 🔹 1. charAt()<br>
 Definition:<br>
@@ -228,10 +227,10 @@ Definition:<br>
 
 Example:<br>
 let str = "Hello";<br>
-console.log(str.charAt(1)); // e<br><br>
+console.log(str.charAt(1)); // e<br>
 
 👉 Index starts from 0<br>
-👉 "H e l l o" → (0 1 2 3 4)<br><br>
+👉 "H e l l o" → (0 1 2 3 4)<br>
 
 🔹 2. substring()<br>
 Definition:<br>
@@ -242,7 +241,7 @@ string.substring(start, end)<br>
 Example:<br>
 let str = "Hello World";<br>
 console.log(str.substring(0, 5)); // Hello<br>
-👉 It extracts from index 0 to 4 (end is not included)<br><br>
+👉 It extracts from index 0 to 4 (end is not included)<br>
 
 🔹 3. includes()<br>
 Definition:<br>
@@ -251,7 +250,7 @@ Definition:<br>
 Example:<br>
 let str = "Hello World";<br>
 console.log(str.includes("World")); // true<br>
-console.log(str.includes("Hi"));    // false<br><br>
+console.log(str.includes("Hi"));    // false<br>
 
 🧠 Easy trick:<br>
 charAt → single character<br>
@@ -261,79 +260,79 @@ includes → check true/false<br>
 📌 One-line:<br>
 👉 These methods help you access, extract, and check data in strings<br>
 
-Q12. What are string methods?<br>
+1️⃣2️⃣. What are string methods?<br>
 Definition:<br>
-👉 String methods are built-in functions in JavaScript that are used to perform operations on strings (text).<br><br>
+👉 String methods are built-in functions in JavaScript that are used to perform operations on strings (text).<br>
 
 🧠 Simple words:<br>
-👉 String methods help you manipulate, check, and modify text.<br><br>
+👉 String methods help you manipulate, check, and modify text.<br>
 
-📌 Common String Methods:<br><br>
+📌 Common String Methods:<br>
 
 1. charAt()<br>
-👉 Gets character at a position.<br><br>
+👉 Gets character at a position.<br>
 
 2. substring()<br>
-👉 Extracts part of a string<br><br>
+👉 Extracts part of a string<br>
 
 3. includes()<br>
-👉 Checks if text exists<br><br>
+👉 Checks if text exists<br>
 
 4. toUpperCase()<br>
 👉 Converts to uppercase<br>
 Example:<br>
-"hello".toUpperCase(); // HELLO<br><br>
+"hello".toUpperCase(); // HELLO<br>
 
 5. toLowerCase()<br>
 👉 Converts to lowercase<br>
 Example:<br>
-"HELLO".toLowerCase(); // hello<br><br>
+"HELLO".toLowerCase(); // hello<br>
 
 6. trim()<br>
 👉 Removes extra spaces<br>
 Example:<br>
-"  hi  ".trim(); // "hi"<br><br>
+"  hi  ".trim(); // "hi"<br>
 
 7. replace()<br>
 👉 Replaces text<br>
 Example:<br>
-"Hello".replace("H", "Y"); // Yello<br><br>
+"Hello".replace("H", "Y"); // Yello<br>
 
 📌 One-line:<br>
-👉 String methods are functions used to manipulate and work with strings<br><br>
+👉 String methods are functions used to manipulate and work with strings<br>
 
-Q13. What is a Palindrome and how does it work??<br>
+1️⃣3️⃣. What is a Palindrome and how does it work??<br>
 Definition:<br>
-👉 A palindrome is a word, number, or string that reads the same forward and backward.<br><br>
+👉 A palindrome is a word, number, or string that reads the same forward and backward.<br>
 
 📌 Examples:<br>
 "madam" ✅<br>
 "racecar" ✅<br>
 "121" ✅<br>
-"hello" ❌ (not same backward)<br><br>
+"hello" ❌ (not same backward)<br>
 
 🧠 How does it work?<br>
 👉 You reverse the string and compare it with the original:<br>
 If both are same → Palindrome ✅<br>
 If not → Not a palindrome ❌<br>
 
-Q14. What is an array?<br>
+1️⃣4️⃣. What is an array?<br>
 Definition:<br>
-👉 An array is a special variable used to store multiple values in a single variable.<br><br>
+👉 An array is a special variable used to store multiple values in a single variable.<br>
 
 🧠 Simple words:<br>
-👉 Instead of creating many variables, you store everything in one list<br><br>
+👉 Instead of creating many variables, you store everything in one list<br>
 
 📌 Key points:<br>
 Stores multiple values<br>
 Values can be any type (number, string, etc.)<br>
 Uses square brackets [ ]<br>
-Access using index<br><br>
+Access using index<br>
 
 📌 One-line:<br>
 👉 An array is a collection of multiple values stored in one variable<br>
 
-Q15. Difference between slice() and splice()?
+1️⃣5️⃣. Difference between slice() and splice()?
 🔹 slice()<br>
 Definition:<br>
 👉 slice() is used to extract a part of an array and returns a new array without changing the original<br>
@@ -341,7 +340,7 @@ Example:<br>
 let arr = [1, 2, 3, 4, 5];<br>
 let result = arr.slice(1, 4);<br>
 console.log(result); // [2, 3, 4]<br>
-console.log(arr);    // [1, 2, 3, 4, 5] (unchanged)<br><br>
+console.log(arr);    // [1, 2, 3, 4, 5] (unchanged)<br>
 
 🔹 splice()<br>
 Definition:<br>
@@ -349,23 +348,23 @@ Definition:<br>
 Example:<br>
 let arr = [1, 2, 3, 4, 5];<br>
 arr.splice(1, 2); <br>
-console.log(arr); // [1, 4, 5]<br><br>
+console.log(arr); // [1, 4, 5]<br>
 
 🧠 Easy trick:<br>
 slice → cut and copy ✂️ (no change)<br>
-splice → cut and change 🔧 (modifies array)<br><br>
+splice → cut and change 🔧 (modifies array)<br>
 
 📌 One-line:<br>
 👉 slice() copies part of array, splice() modifies the array<br>
 
-Q16. How to remove duplicate element from an array?<br><br>
+1️⃣6️⃣. How to remove duplicate element from an array?<br>
 
 🔹 1. Using Set (Best & easiest)<br>
 👉 Set automatically stores unique values only<br>
 Example:<br>
 let arr = [1, 2, 2, 3, 4, 4];<br>
 let unique = [...new Set(arr)];<br>
-console.log(unique); // [1, 2, 3, 4]<br><br>
+console.log(unique); // [1, 2, 3, 4]<br>
 
 🔹 2. Using filter()<br>
 👉 Check if element appears first time<br>
@@ -374,7 +373,7 @@ let arr = [1, 2, 2, 3, 4, 4];<br>
 let unique = arr.filter((value, index) => {<br>
   return arr.indexOf(value) === index;<br>
 });<br>
-console.log(unique); // [1, 2, 3, 4]<br><br>
+console.log(unique); // [1, 2, 3, 4]<br>
 
 🔹 3. Using loop<br>
 👉 Manually check and store unique values<br>
@@ -386,26 +385,26 @@ for (let i = 0; i < arr.length; i++) {<br>
     unique.push(arr[i]);<br>
   }<br>
 }<br>
-console.log(unique); // [1, 2, 3, 4]<br><br>
+console.log(unique); // [1, 2, 3, 4]<br>
 
 📌 Best choice:<br>
 👉 Use Set method (short + fast)<br>
 
-Q17. How to find first/last/highest number in an array?<br><br>
+1️⃣7️⃣. How to find first/last/highest number in an array?<br>
 
 🔹 1. First Element<br><br>
 👉 Access using index 0<br>
 Example:<br>
 let arr = [10, 20, 30, 40];<br>
-console.log(arr[0]); // 10<br><br>
+console.log(arr[0]); // 10<br>
 
-🔹 2. Last Element<br><br>
+🔹 2. Last Element<br>
 👉 Use length - 1<br>
 Example:<br>
 let arr = [10, 20, 30, 40];<br>
-console.log(arr[arr.length - 1]); // 40<br><br>
+console.log(arr[arr.length - 1]); // 40<br>
 
-🔹 3. Highest Number (Maximum)<br><br>
+🔹 3. Highest Number (Maximum)<br>
 ✅ Method 1: Using Math.max()<br>
 Example:<br>
 let arr = [10, 20, 30, 40];<br>
@@ -417,21 +416,21 @@ First → 0 index<br>
 Last → length - 1<br>
 Max → Math.max(...)<br>
 
-Q18. How to find index of a number in an array?<br><br>
+1️⃣8️⃣. How to find index of a number in an array?<br>
 🔹 1. Using indexOf() (Most common)<br>
 👉 Returns the first index of the element<br>
 👉 If not found → returns -1<br>
 Example:<br>
 let arr = [10, 20, 30, 40];<br>
 console.log(arr.indexOf(30)); // 2<br>
-console.log(arr.indexOf(50)); // -1<br><br>
+console.log(arr.indexOf(50)); // -1<br>
 
 🔹 2. Using findIndex()<br>
 👉 Useful when working with conditions<br>
 Example:<br>
 let arr = [10, 20, 30, 40];<br>
 let index = arr.findIndex(num => num > 25);<br>
-console.log(index); // 2<br><br>
+console.log(index); // 2<br>
 
 🔹 3. Using loop (basic way)<br>
 Example:<br>
@@ -441,17 +440,17 @@ for (let i = 0; i < arr.length; i++) {<br>
   if (arr[i] === target) {<br>
     console.log(i); // 2<br>
   }<br>
-}<br><br>
+}<br>
 
 🧠 Easy trick:<br>
 👉 indexOf = direct search<br>
 👉 findIndex = condition search<br>
 
-Q19. How to print array element into two array alternately?<br>
+1️⃣9️⃣. How to print array element into two array alternately?<br>
 Concept:<br>
 👉 Put elements at:<br>
 even index (0,2,4...) → first array<br>
-odd index (1,3,5...) → second array<br><br>
+odd index (1,3,5...) → second array<br>
 
 Example:<br>
 let arr = [1, 2, 3, 4, 5, 6];<br>
@@ -465,7 +464,7 @@ for (let i = 0; i < arr.length; i++) {<br>
   }<br>
 }<br>
 console.log(arr1); // [1, 3, 5]<br>
-console.log(arr2); // [2, 4, 6]<br><br>
+console.log(arr2); // [2, 4, 6]<br>
 
 🧠 Easy understanding:<br>
 👉 Alternate means:<br>
@@ -474,7 +473,7 @@ console.log(arr2); // [2, 4, 6]<br><br>
 3rd → array1<br>
 4th → array2<br>
 
-Q20. What is currying in javascript?<br>
+2️⃣0️⃣. What is currying in javascript?<br>
 Definition:<br>
 👉 Currying is a technique where a function with multiple arguments is converted into a sequence of functions, each taking one argument at a time.<br><br>
 
@@ -482,7 +481,7 @@ Definition:<br>
 👉 Instead of:<br>
 add(a, b, c)<br>
 👉 We write:<br>
-add(a)(b)(c)<br><br>
+add(a)(b)(c)<br>
 
 📌 Example:<br>
 function add(a) {<br>
@@ -492,11 +491,11 @@ function add(a) {<br>
     };<br>
   };<br>
 }<br>
-console.log(add(2)(3)(4)); // 9<br><br>
+console.log(add(2)(3)(4)); // 9<br>
 
 💡 Arrow function version:<br>
 const add = a => b => c => a + b + c;<br>
-console.log(add(2)(3)(4)); // 9<br><br>
+console.log(add(2)(3)(4)); // 9<br>
 
 📌 Why use currying?<br>
 Reuse functions<br>
