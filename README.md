@@ -1,6 +1,6 @@
 # js_interview-question
 
-Q1. What is javascript?
+Q1. What is javascript?\n
 JavaScript (JS) is a programming language used to make websites interactive and dynamic.
 
 Q2. What is logical operator in js?
